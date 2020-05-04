@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>States</h1>
+        <form action="http://localhost:3000/mountain" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+
+            <label for="height">Height:</label>
+            <input type="text" name="height">
+
+            <label for="mountain_id">Mountain:</label>
+            <select name="mountain_id" id="dropdown"></select>
+
+
+            <input type="submit" value="Click to add">
+        </form>
+</body>
+</html>
